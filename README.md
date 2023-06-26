@@ -1,5 +1,5 @@
 # DOCKER
-` Last update jun 20 2023 `
+` Last update jun 26 2023 `
 # INTRODUCTION
 	
 ## What is DOCKER?
@@ -30,9 +30,9 @@ so but we have public repositories that contain many of the container that you w
 
 	
 ## Docker vs virtual machine
-		Architecture: Docker containers run on a host operating system and share the host's kernel,
-		while VMs run on a hypervisor and each have their own operating system.
-		This difference makes containers more lightweight and faster to start compared to VMs.
+Architecture: Docker containers run on a host operating system and share the host's kernel,
+while VMs run on a hypervisor and each have their own operating system.
+This difference makes containers more lightweight and faster to start compared to VMs.
 
 # INSTALATION
 	
