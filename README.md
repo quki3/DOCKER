@@ -34,6 +34,9 @@ Architecture: Docker containers run on a host operating system and share the hos
 while VMs run on a hypervisor and each have their own operating system.
 This difference makes containers more lightweight and faster to start compared to VMs.
 
-# INSTALATION
-	
+## INSTALATION
+
+## challenges
+1. 1/
+   - a/ run an own chroot environment, your <a href='https://en.wikipedia.org/wiki/Chroot'>doc</a>.
 	
