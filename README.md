@@ -20,6 +20,11 @@ the containers leave in container repository this is a special type of storage f
 store all their conteiners.
 Simply put, a container is a sandboxed process on your machine that is isolated from all other processes on the host machine. That isolation <a href="https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504">leverages kernel namespaces and cgroups,</a>
 
+## CHALLENGES 
+1. 1/
+   - a/ create a jail as a honeypot. your <a href="https://en.m.wikipedia.org/wiki/Chroot">doc</a>.
+
+
 #@@you@stayed@here in doc chroot
 
 so but we have public repositories that contain many of the container that you want <a href="https://hub.docker.com/">docker hub</a>
