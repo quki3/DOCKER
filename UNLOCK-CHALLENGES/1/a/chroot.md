@@ -1,3 +1,4 @@
+``` bash
 # Mount Kernel Virtual File Systems
 TARGETDIR="/mnt/chroot"
 mount -t proc proc $TARGETDIR/proc
@@ -15,3 +16,4 @@ mount -t devpts devpts $TARGETDIR/dev/pts
 # Link /etc/mtab
 chroot $TARGETDIR rm /etc/mtab 2> /dev/null 
 chroot $TARGETDIR ln -s /proc/mounts /etc/mtab
+```
