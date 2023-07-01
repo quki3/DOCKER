@@ -22,10 +22,11 @@ mount -t devpts devpts $TARGETDIR/dev/pts
 // /etc/hosts - source file that will be copied
 /bin/cp -f /etc/hosts $TARGETDIR/etc/
 
-// Copy /etc/resolv.conf 
+// Copy /etc/resolv.conf
+// etc/resolv.conf - file contains configuration information for the system's DNS (Domain Name System) resolver. It specifies the DNS servers to be used for domain name resolution and other related settings.
 /bin/cp -f /etc/resolv.conf $TARGETDIR/etc/resolv.conf
 
-# Link /etc/mtab
+// Link /etc/mtab
 chroot $TARGETDIR rm /etc/mtab 2> /dev/null 
 chroot $TARGETDIR ln -s /proc/mounts /etc/mtab
 ```
