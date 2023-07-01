@@ -7,7 +7,9 @@ TARGETDIR="/mnt/chroot"
 // /proc - directory is a virtual filesystem that provides information about running processes and system resources in a Linux system. By mounting the proc filesystem, you can access and interact with this information.
 // $TARGETDIR - variable
 mount -t proc proc $TARGETDIR/proc
+// sysfs - filesystem provides a way to interact with the kernel and retrieve information about devices, drivers, and other system components.
 mount -t sysfs sysfs $TARGETDIR/sys
+// devtmpfs
 mount -t devtmpfs devtmpfs $TARGETDIR/dev
 mount -t tmpfs tmpfs $TARGETDIR/dev/shm
 mount -t devpts devpts $TARGETDIR/dev/pts
