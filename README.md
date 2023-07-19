@@ -8,6 +8,7 @@
 ### instalation
 <a href="https://docs.docker.com/desktop/install/debian/">Debian install</a>, <a href="https://github.com/quki3/DOCKER/blob/main/UNLOCK-CHALLENGES/0/a/install.md">quki3 install</a> 
 ### challenges
-0. - a/ quki3 install
+0. - a/ <a href="https://github.com/quki3/DOCKER/blob/main/UNLOCK-CHALLENGES/0/a/install.md">quki3 install</a>
+   - b/ <a href="https://docs.docker.com/engine/reference/commandline/cli/?_gl=1*bltxje*_ga*ODQ0Mjg2NDcxLjE2ODk3OTIyNzQ.*_ga_XJWPQMJYHQ*MTY4OTc5NDk4Ni4yLjEuMTY4OTc5NTA0Ni42MC4wLjA.">CLI doc</a>
 1. - a/ run an own chroot environment, your <a href='https://en.wikipedia.org/wiki/Chroot'>doc</a>.
 	
