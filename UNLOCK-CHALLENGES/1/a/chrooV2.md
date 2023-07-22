@@ -53,3 +53,5 @@ sudo echo 'PS1="CHROOTJAIL@quki3 #"' | sudo tee /chrootjail/etc/bash.bashrc
 ```bash
 sudo chroot /chrootjail /bin/bash
 ```
+#### NOTE: 
+<sub>Since you have included the bash shell, you will have access to all the bash built-in commands. That allows you to exit the jail using the exit command.</sub>
